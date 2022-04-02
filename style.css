@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+  background: #f1f1f1;
+  padding: 0 5px;
+ }
+
+
+.container{
+  overflow-x: hidden;
+  border-style: double;
+  border-color: #00FFA4;
+  border-width: 5px;
+  
+}
+
+.hr{
+  border-style: double;
+  border-width: 2px;
+}
+  
+
+
+
+.break{
+  border-width: 2px;
+  border-color: black;
+}
+
+.namelogo{
+  display: flex;
+  width: 100%;
+  height: 55px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.namelogo img{
+  width: 85px;
+  height: 85px;
+  padding: 5px;
+  border-radius: 50%;
+  border-style: double;
+  border-width: 5px;
+  background: white;
+}
+
+.namelogo .name{
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top: 1px;
+}
+
+.namelogo .hash{
+  width: 90%;
+  font-size:23px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+input{
+  width: 90%;
+  padding: 5px;
+  height: 40px;
+  border-style: double;
+  border-width: 5px;
+}
+
+.area{
+  border-style: double;
+  border-width: 5px;
+  padding: 2px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  width: 95%;
+  height: 10%;
+  overflow-x: auto;
+}
+
+
+.imgvideo{
+  width: 300px;
+  height: 100px;
+}
+
+
+
+
+
+
+  #addbox{
+    position: fixed;
+    top: 1%;
+    background: #f1f1f1;
+    border-style: double;
+    color: white;
+    width: 98%;
+    height: 100%;
+    color: black;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+    display: none;
+    overflow-x: hidden;
+    
+  }
+  
+  #close{
+    float: right;
+    color: red;
+  }
+
+
+.heading{
+  color: black;
+}
+
+.addbtn{
+  position: fixed;
+  height: 50px;
+  font-size: 30px;
+  font-weight: 100;
+  
+  border-left-color: black;
+  border-left-width: 3px;
+  
+  border-right-color: black;
+  border-right-width: 3px;
+  
+  border-top-style: none;
+  
+  border-bottom-style: none;
+  
+  color: #fff;
+  letter-spacing: 2px;
+  width: 97%;
+  border-radius: 5px;
+  
+  background: linear-gradient(-45deg,#ee9032,#f16d52,#ec4a77,#7963aa,#4be6b5);
+  animation: movinggradient 3s ease-out infinite;
+  background-size: 200%;
+}
+
+
+@keyframes movinggradient{
+  
+  0%{
+    background-position: 0 50%;
+  }
+  
+  50%{
+    background-position: 100% 50%;
+  }
+  
+  0%{
+    background-position: 0 50%;
+  }
+  
+}
+
+
+video{
+  border-style: double;
+  border-width: 4px;
+}
